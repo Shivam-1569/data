@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+form{
+    font-size: 1.2em;
+    border-radius: 50px 50px;
+    padding: 1rem;
+}
+form input[type=text]{
+    font-size: 1.2em;
+    border-radius: 50px 50px;
+    padding: 1rem;
+    background-color: rgb(176, 176, 176);
+}
+input[type=submit]{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: antiquewhite;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 50px 50px;
+    border :transparent;
+    cursor: pointer;
+
+}
+
+input[type=color]{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#main{
+    border: 5px solid black;
+    width: 50%;
+    margin-inline: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    color: white;
+
+}
+span{
+    font-size: 2rem;
+    text-align: center;
+}
+#blue{
+    background-color: blue;
+}
+#black{
+    background-color: black;
+}
+#purple{
+    background-color: purple;
+}
+#green{
+    background-color: green;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 60px;
+    text-align: center;
+}

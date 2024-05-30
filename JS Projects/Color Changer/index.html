@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Color Changer:</h1>
+    <form>
+        Color: &NonBreakingSpace; <input type="text" id="color">&nbsp;
+        <input type="submit" value="Submit" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$">
+        <input type="color" id="cPal">
+    </form>  
+    <span></span>
+
+    <div id="main">
+        <div id="blue" class="box">BLUE</div>
+        <div id="black" class="box">BLACK</div>
+        <div id="purple" class="box">PURPLE</div>
+        <div id="green" class="box">GREEN</div>    
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const body = document.querySelector("body");
+    const reqUrl = "https://api.github.com/users/hiteshchoudhary";
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', reqUrl);
+    xhr.onreadystatechange = ()=>{
+        console.log(xhr.readyState);
+        if(xhr.readyState === 4){
+            const data = JSON.parse(xhr.responseText);
+            body.innerHTML = ` Login : ${data.login} <br>Profile Photot: <a href="${data.avatar_url}">image</a><br> Followers: ${data.followers}`
+            
+        }
+    }
+    xhr.send()
+
+</script>
+</html>

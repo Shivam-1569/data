@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ced69d41db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <form>
+            <h1>Currency Converter</h1>
+
+            <div class="container">
+            <input type="number" id="amt" placeholder="Enter the Amount.." value="1">
+            <div class="conversion">
+                <select name="from" id="fromSelect">
+                </select>
+                <i class="fa-solid fa-money-bill-transfer" style="color: #21211f; top: 50%;"></i>
+                <select name="to" id="toSelect">
+                </select>
+            </div>
+            <input type="submit" id="btn" value="Convert">
+        </form>
+        <div id="ans"></div>
+    <script src="code.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

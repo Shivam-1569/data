@@ -1,0 +1,38 @@
+.navBar{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    
+    > img{
+        height: 70%;
+        margin-left: 30px;
+    }
+
+    >svg{
+        color: beige;
+        font-size: 2rem;
+        margin: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        margin-right: 30px;
+
+        &:hover{
+            color: rgb(245, 245, 170);
+            transform: scale(1.1);
+        }
+    }
+
+    >div{
+        width: 100%;
+        padding: 40px;
+
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 2vmax;
+        }
+    }
+}

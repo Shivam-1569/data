@@ -1,0 +1,78 @@
+$bg : #000;
+*{
+    
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.banner{
+    height:75vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vmax;
+    padding: 1rem;
+    
+    h1{
+        color: #fdfdfd;
+        font-size: 3rem;
+    }
+    p{
+        width: 500px;
+        color: rgb(211, 205, 205);
+    }
+    div{
+        display: flex;
+        gap: 10px;
+        button{
+            padding-inline: 20px;
+            padding-block: 10px;
+            color: rgb(0, 0, 0);
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            background-color: #f6f2f2;
+            >svg{
+                color: #131313;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: 0.5s;
+                padding: 1rem;
+
+                
+            }
+        }
+        
+    }
+}
+.Row{
+  
+    background-color: black;
+    margin-bottom: 0;
+    padding-top: 40px;
+    max-width: 100vw;
+    >h2{
+        padding: 2vmax;
+        padding-bottom: 0;
+    }
+}
+.row{
+    display: flex;
+    overflow-x: scroll;
+
+}
+.card{
+    height: 40vh;
+    padding-left: 20px;
+    padding-top: 20px;
+    transition: 0.5s all;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.04);
+    }
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #score {
+    font-size: 24px;
+  }
+  
+  #dealer, #player {
+    font-size: 20px;
+  }
+  
+  #hit-button, #stand-button, #reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #hit-button:hover, #stand-button:hover, #reset-button:hover {
+    background-color: #ddd;
+  }
+  
